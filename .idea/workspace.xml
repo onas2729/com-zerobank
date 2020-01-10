@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0bf3edc2-2333-4f94-9f35-f74301fca87c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WBUq9NEehaT8zCQ9S8CmawRUcz" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="compactDirectories" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/Zerobank/utilities" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.Zerobank.pages" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\LAPTOP\IdeaProjects\com.zerobank\src\test\java\com\Zerobank\utilities" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.zerobank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Zerobank.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Zerobank.runners" />
+      <option name="MAIN_CLASS_NAME" value="com.Zerobank.runners.CukesRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CukesRunner" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0bf3edc2-2333-4f94-9f35-f74301fca87c" name="Default Changelist" comment="" />
+      <created>1578622669401</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578622669401</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="530" y="128" key="FileChooserDialogImpl" timestamp="1578625589676">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="530" y="128" key="FileChooserDialogImpl/0.0.1600.860/377.-600.800.560@0.0.1600.860" timestamp="1578625589676" />
+    <state width="1545" height="209" key="GridCell.Tab.0.bottom" timestamp="1578666934618">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1545" height="209" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1578666934618" />
+    <state width="1545" height="209" key="GridCell.Tab.0.bottom/0.0.1600.860/377.-600.800.560@0.0.1600.860" timestamp="1578630921582" />
+    <state width="1545" height="209" key="GridCell.Tab.0.center" timestamp="1578666934617">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1545" height="209" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1578666934617" />
+    <state width="1545" height="209" key="GridCell.Tab.0.center/0.0.1600.860/377.-600.800.560@0.0.1600.860" timestamp="1578630921581" />
+    <state width="1545" height="209" key="GridCell.Tab.0.left" timestamp="1578666934617">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1545" height="209" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1578666934617" />
+    <state width="1545" height="209" key="GridCell.Tab.0.left/0.0.1600.860/377.-600.800.560@0.0.1600.860" timestamp="1578630921581" />
+    <state width="1545" height="209" key="GridCell.Tab.0.right" timestamp="1578666934618">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1545" height="209" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1578666934618" />
+    <state width="1545" height="209" key="GridCell.Tab.0.right/0.0.1600.860/377.-600.800.560@0.0.1600.860" timestamp="1578630921581" />
+    <state x="152" y="0" key="SettingsEditor" timestamp="1578625908344">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="152" y="0" key="SettingsEditor/0.0.1600.860/377.-600.800.560@0.0.1600.860" timestamp="1578625908344" />
+    <state x="434" y="93" width="731" height="674" key="find.popup" timestamp="1578624166403">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="434" y="93" width="731" height="674" key="find.popup/0.0.1600.860/377.-600.800.560@0.0.1600.860" timestamp="1578624166403" />
+    <state x="379" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1578625440876">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="379" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1600.860/377.-600.800.560@0.0.1600.860" timestamp="1578625440876" />
+  </component>
+</project>
