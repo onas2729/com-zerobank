@@ -1,6 +1,7 @@
 package com.Zerobank.StepDefinitions;
 
 import com.Zerobank.pages.LoginPage;
+import com.Zerobank.utilities.BrowserUtils;
 import com.Zerobank.utilities.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -10,37 +11,38 @@ import org.junit.Assert;
 public class loginStepDefinition {
     LoginPage loginPage = new LoginPage();
 
-    @Given("the user is on the login page")
+    @Given("The user is on the login page")
     public void the_user_is_on_the_login_page() {
-
         String expectedTitle = "Zero - Log in";
         String actualTitle = Driver.get().getTitle();
-
         Assert.assertEquals(expectedTitle, actualTitle);
     }
 
-    @When("user enters {string} and {string} and clicks Sign in button")
-    public void user_enters_and_and_clicks_Sign_in_button(String username, String password) {
-        loginPage.login(username, password);
+    @When("the user enters valid credentials")
+    public void the_user_enters_valid_credentials() {
+        loginPage.Login();
     }
 
-    @Then("the page title should be Account summary page")
-    public void the_page_title_should_be_Account_summary_page() {
-
-        Assert.assertTrue("title is not matched", loginPage.verifyAccountSummaryPage());
-
+    @When("clicks on sign in button")
+    public void clicks_on_sign_in_button() {
+        loginPage.signinButton.click();
     }
 
-
-
-    @Then("user should not be able to login")
-    public void user_should_not_be_able_to_login() {
-loginPage.verifyTroubleShootMessage();
+    @Then("the page title should be {string}")
+    public void the_page_title_should_be(String expectedTitle) {
+        BrowserUtils.waitFor(3);
+        String actualTitle = Driver.get().getTitle();
+        BrowserUtils.waitFor(3);
+        Assert.assertEquals(expectedTitle, actualTitle);
     }
-
-    @Then("error message should be displayed")
-    public void error_message_should_be_displayed() {
-            loginPage.verifyErrorMessageDisplayed();
-    }
-
 }
+
+
+
+
+
+
+
+
+
+

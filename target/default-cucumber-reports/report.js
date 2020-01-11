@@ -1,24 +1,24 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/login.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/AccountSummary.feature");
 formatter.feature({
-  "name": "Login",
+  "name": "Account Summary",
   "description": "",
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@login"
+      "name": "@account_summary"
     }
   ]
 });
 formatter.scenario({
-  "name": "Authorized users should not be able to login",
+  "name": "Account summary page should have the title Zero - Account Summary",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@login"
+      "name": "@account_summary"
     },
     {
-      "name": "@login2"
+      "name": "@acct_summary_page_title"
     }
   ]
 });
@@ -26,41 +26,21 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "the user is on the login page",
+  "name": "the user is logged in",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "loginStepDefinition.the_user_is_on_the_login_page()"
+  "location": "AccountSummaryStepDefinition.the_user_is_logged_in()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user enters \"abc\" and \"def\" and clicks Sign in button",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "loginStepDefinition.user_enters_and_and_clicks_Sign_in_button(String,String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user should not be able to login",
+  "name": "the page title should be \"Zero - Account Summary\"",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "loginStepDefinition.user_should_not_be_able_to_login()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "error message should be displayed",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "loginStepDefinition.error_message_should_be_displayed()"
+  "location": "loginStepDefinition.the_page_title_should_be(String)"
 });
 formatter.result({
   "status": "passed"

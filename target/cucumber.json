@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-01-10T14:35:36.035Z",
+        "start_timestamp": "2020-01-11T00:13:50.118Z",
         "before": [
           {
             "result": {
-              "duration": 6162953900,
+              "duration": 5785429600,
               "status": "passed"
             },
             "match": {
@@ -15,14 +15,14 @@
             }
           }
         ],
-        "line": 11,
-        "name": "Authorized users should not be able to login",
+        "line": 4,
+        "name": "Account summary page should have the title Zero - Account Summary",
         "description": "",
-        "id": "login;authorized-users-should-not-be-able-to-login",
+        "id": "account-summary;account-summary-page-should-have-the-title-zero---account-summary",
         "after": [
           {
             "result": {
-              "duration": 2775555600,
+              "duration": 2714747300,
               "status": "passed"
             },
             "match": {
@@ -35,81 +35,53 @@
         "steps": [
           {
             "result": {
-              "duration": 55364900,
+              "duration": 2557880300,
               "status": "passed"
             },
-            "line": 13,
-            "name": "the user is on the login page",
+            "line": 5,
+            "name": "the user is logged in",
             "match": {
-              "location": "loginStepDefinition.the_user_is_on_the_login_page()"
+              "location": "AccountSummaryStepDefinition.the_user_is_logged_in()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 524100500,
+              "duration": 6015195600,
               "status": "passed"
             },
-            "line": 14,
-            "name": "user enters \"abc\" and \"def\" and clicks Sign in button",
+            "line": 6,
+            "name": "the page title should be \"Zero - Account Summary\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"abc\"",
-                  "offset": 12
-                },
-                {
-                  "val": "\"def\"",
-                  "offset": 22
+                  "val": "\"Zero - Account Summary\"",
+                  "offset": 25
                 }
               ],
-              "location": "loginStepDefinition.user_enters_and_and_clicks_Sign_in_button(String,String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 98090400,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "user should not be able to login",
-            "match": {
-              "location": "loginStepDefinition.user_should_not_be_able_to_login()"
+              "location": "loginStepDefinition.the_page_title_should_be(String)"
             },
             "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 64285500,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "error message should be displayed",
-            "match": {
-              "location": "loginStepDefinition.error_message_should_be_displayed()"
-            },
-            "keyword": "And "
           }
         ],
         "tags": [
           {
-            "name": "@login"
+            "name": "@account_summary"
           },
           {
-            "name": "@login2"
+            "name": "@acct_summary_page_title"
           }
         ]
       }
     ],
-    "name": "Login",
+    "name": "Account Summary",
     "description": "",
-    "id": "login",
+    "id": "account-summary",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/login.feature",
+    "uri": "file:src/test/resources/features/AccountSummary.feature",
     "tags": [
       {
-        "name": "@login",
+        "name": "@account_summary",
         "type": "Tag",
         "location": {
           "line": 1,
