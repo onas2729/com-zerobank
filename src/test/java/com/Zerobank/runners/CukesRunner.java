@@ -11,8 +11,8 @@ import org.junit.runner.RunWith;
                 "rerun:target/rerun.txt"},
         features = "src/test/resources/features",
         glue = "/com/Zerobank/StepDefinitions",
-        dryRun = false,
-        tags = "@acct_summary_page_title"
+        dryRun = true,
+        tags = "@account_types "
 )
 
 public class CukesRunner {

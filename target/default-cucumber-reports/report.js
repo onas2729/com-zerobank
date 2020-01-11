@@ -10,7 +10,7 @@ formatter.feature({
   ]
 });
 formatter.scenario({
-  "name": "Account summary page should have the title Zero - Account Summary",
+  "name": "Account summary page should have Cash Accounts, Investment  Accounts, Credit Accounts, Loan Accounts.",
   "description": "",
   "keyword": "Scenario",
   "tags": [
@@ -18,12 +18,12 @@ formatter.scenario({
       "name": "@account_summary"
     },
     {
-      "name": "@acct_summary_page_title"
+      "name": "@account_types"
     }
   ]
 });
 formatter.before({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "the user is logged in",
@@ -33,19 +33,39 @@ formatter.match({
   "location": "AccountSummaryStepDefinition.the_user_is_logged_in()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
-  "name": "the page title should be \"Zero - Account Summary\"",
+  "name": "the user should see following account types",
+  "rows": [
+    {
+      "cells": [
+        "Cash Accounts"
+      ]
+    },
+    {
+      "cells": [
+        "Investment  Accounts"
+      ]
+    },
+    {
+      "cells": [
+        "Credit Accounts"
+      ]
+    },
+    {
+      "cells": [
+        "Loan Accounts"
+      ]
+    }
+  ],
   "keyword": "Then "
 });
-formatter.match({
-  "location": "loginStepDefinition.the_page_title_should_be(String)"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.after({
-  "status": "passed"
+  "status": "skipped"
 });
 });

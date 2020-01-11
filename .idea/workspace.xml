@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bf3edc2-2333-4f94-9f35-f74301fca87c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/Zerobank/StepDefinitions/AccountSummaryStepDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/AccountSummary.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Zerobank/StepDefinitions/loginStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Zerobank/StepDefinitions/loginStepDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Zerobank/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Zerobank/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Zerobank/pages/PageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Zerobank/pages/PageBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/Zerobank/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Zerobank/runners/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rerun.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/rerun.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Zerobank/StepDefinitions/loginStepDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Zerobank/StepDefinitions/loginStepDefinition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Zerobank/runners/CukesRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Zerobank/runners/CukesRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/AccountSummary.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/AccountSummary.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,26 +113,26 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="530" y="128" key="FileChooserDialogImpl/0.0.1600.860/377.-600.800.560@0.0.1600.860" timestamp="1578625589676" />
-    <state width="1545" height="209" key="GridCell.Tab.0.bottom" timestamp="1578701567474">
+    <state width="1545" height="209" key="GridCell.Tab.0.bottom" timestamp="1578701657476">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1545" height="209" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1578666934618" />
-    <state width="1545" height="209" key="GridCell.Tab.0.bottom/0.0.1600.860/377.-600.800.560@0.0.1600.860" timestamp="1578701567474" />
-    <state width="1545" height="209" key="GridCell.Tab.0.center" timestamp="1578701567474">
+    <state width="1545" height="209" key="GridCell.Tab.0.bottom/0.0.1600.860/377.-600.800.560@0.0.1600.860" timestamp="1578701657476" />
+    <state width="1545" height="209" key="GridCell.Tab.0.center" timestamp="1578701657476">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1545" height="209" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1578666934617" />
-    <state width="1545" height="209" key="GridCell.Tab.0.center/0.0.1600.860/377.-600.800.560@0.0.1600.860" timestamp="1578701567474" />
-    <state width="1545" height="209" key="GridCell.Tab.0.left" timestamp="1578701567473">
+    <state width="1545" height="209" key="GridCell.Tab.0.center/0.0.1600.860/377.-600.800.560@0.0.1600.860" timestamp="1578701657476" />
+    <state width="1545" height="209" key="GridCell.Tab.0.left" timestamp="1578701657476">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1545" height="209" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1578666934617" />
-    <state width="1545" height="209" key="GridCell.Tab.0.left/0.0.1600.860/377.-600.800.560@0.0.1600.860" timestamp="1578701567473" />
-    <state width="1545" height="209" key="GridCell.Tab.0.right" timestamp="1578701567474">
+    <state width="1545" height="209" key="GridCell.Tab.0.left/0.0.1600.860/377.-600.800.560@0.0.1600.860" timestamp="1578701657476" />
+    <state width="1545" height="209" key="GridCell.Tab.0.right" timestamp="1578701657476">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1545" height="209" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1578666934618" />
-    <state width="1545" height="209" key="GridCell.Tab.0.right/0.0.1600.860/377.-600.800.560@0.0.1600.860" timestamp="1578701567474" />
+    <state width="1545" height="209" key="GridCell.Tab.0.right/0.0.1600.860/377.-600.800.560@0.0.1600.860" timestamp="1578701657476" />
     <state x="152" y="0" key="SettingsEditor" timestamp="1578625908344">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
